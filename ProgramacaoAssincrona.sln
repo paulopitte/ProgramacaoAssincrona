@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.32014.148
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaforoThread", "SemaforoThread\SemaforoThread\SemaforoThread.csproj", "{4E0C4601-97F7-4CBD-98EC-AD9C16C123A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemaforoThread", "SemaforoThread\SemaforoThread\SemaforoThread.csproj", "{4E0C4601-97F7-4CBD-98EC-AD9C16C123A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaforoSlim", "SemaforoSlim\SemaforoSlim\SemaforoSlim.csproj", "{B6B0FD62-F798-43F1-AE2E-2AB1D5AE78E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemaforoSlim", "SemaforoSlim\SemaforoSlim\SemaforoSlim.csproj", "{B6B0FD62-F798-43F1-AE2E-2AB1D5AE78E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTask", "ValueTask\ValueTask.csproj", "{A476F19E-1F17-4ED4-9EE8-FAEC6C74C894}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B6B0FD62-F798-43F1-AE2E-2AB1D5AE78E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6B0FD62-F798-43F1-AE2E-2AB1D5AE78E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6B0FD62-F798-43F1-AE2E-2AB1D5AE78E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A476F19E-1F17-4ED4-9EE8-FAEC6C74C894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A476F19E-1F17-4ED4-9EE8-FAEC6C74C894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A476F19E-1F17-4ED4-9EE8-FAEC6C74C894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A476F19E-1F17-4ED4-9EE8-FAEC6C74C894}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
